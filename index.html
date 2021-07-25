@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table(CSS)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/apb.jpg">
+</head>
+<body>
+    <table border="1px" width="100%" cellspacing="0" class="table">
+        <caption><h1 style="color: darkslateblue;">HTML TAGS</h1></caption>
+        <tr>
+            <th class="r1c1">SI</th>
+            <th class="r1c2">Tag Name</th>
+            <th class="r1c3">Description</th>
+            <th class="r1c4">Example</th>                
+        </tr>
+        <tr class="r2">
+            <td>1</td>
+            <td>Abbreviation Tag</td>
+            <td>This tag is used to define an abbreviation or acronym.</td>
+            <td><abbr title="Word Health Organization">WHO</abbr></td>
+        </tr>
+        <tr>
+            <td class="c11">2</td>
+           <td class="c12">Hyperlink Tag</td>
+           <td class="c13">This tag is used to define an hyperlink.</td>
+           <td class="c14"><a href="https://www.youtube.com/">Youtube</a></td>            
+    </tr>
+    <tr>
+        <td class="c11">3</td>
+        <td class="c12">Article Tag </td>
+        <td class="c13">This tag is used to define an article.</td>
+        <td class="c14"><h2>Netbeans</h2><p>One of the best java compilers.</p></td>
+    </tr>
+    <tr>
+        <td class="c11">4</td>
+        <td class="c12">Aside Tag</td>
+        <td class="c13">Display same cotent aside from the content it is placed in.</td>
+        <td class="c14"><h3>Hello</h3><p>This is the first coentent</p><aside><h5>Aside</h5><p>This is the second content</p></aside></td>
+            
+    </tr>
+    <tr>
+        <td class="c11">5</td>
+        <td class="c12">Bold Tag</td>
+        <td class="c13">Defines bold texts</td>
+        <td class="c14"><b>This Sentence is bold</b></td>
+    </tr>
+    <tr>
+        <td class="c11">6</td>
+        <td class="c12">BDI Tag</td>
+        <td class="c13">Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+        <td class="c14"><ul><li>User <bdi>href</bdi> :90
+        </li></ul></td>
+    </tr>
+    <tr>
+        <td class="c11">7</td>
+        <td class="c12">BDO Tag</td>
+        <td class="c13">Overrides the current text direction</td>
+        <td class="c14"><bdo dir="rtl">This Text will go right to left</bdo></td>
+    </tr>
+    <tr>
+        <td class="c11">8</td>
+        <td class="c12">Blockquote Tag</td>
+        <td class="c13">Defines a section that is quoted from another source</td>
+        <td class="c14"><blockquote cite="http://www.worldwildlife.org/who/index.html">WWF is protecting the future nature</blockquote></td>
+    </tr>
+    <tr>
+        <td class="c11">9</td>
+        <td class="c12">Break Tag</td>
+        <td class="c13">Defines a single line break</td>
+        <td class="c14">Lets <br> See it
+        </td>
+    </tr>
+    <tr>
+        <td class="c11">10</td>
+        <td class="c12">Button Tag</td>
+        <td class="c13">Defines a click table button</td>
+        <td class="c14"><button type="button">Click Here</button></td>
+    </tr>
+    <tr>
+        <td class="c11">11</td>
+        <td class="c12">Canvas Tag</td>
+        <td class="c13">Used to draw graphics, on the fly, via scripting (usually Javascript)</td>
+        <td class="c14"><canvas id="myCanvas">This is a canvas</canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(0,0,50,80);
+            </script>
+        
+        </td>
+
+    </tr>
+    <tr>
+        <td class="c21">12</td>
+        <td class="c22">Caption Tag</td>
+        <td class="c23">Defines a table caption</td>
+        <td class="c24"><table border="1px" cellspacing="0">
+            <caption>STUDENTS GRADE</caption>
+            <tr><th>Subject</th>
+            <th>Grade</th></tr>
+            <tr>
+                <td>Physics</td>
+                <td>80%</td>
+                </tr><tr>
+                    <td>Math</td>
+                <td>94%</td>
+            </tr>
+        </table></td>
+    </tr>
+    <tr>
+        <td class="c21">12</td>
+        <td class="c22">Work Title tag</td>
+        <td class="c23">Defines the title of work</td>
+        <td class="c24"><p><cite>One Last Stop</cite>Casey McQuiston-  <br>“Casey McQuiston’s One Last Stop is a magical, big-hearted romance          where the impossible becomes possible as August does everything in her power to save the girl lost in time”</p></td>
+    </tr>
+    <tr>
+        <td class="c21">13</td>
+        <td class="c22">Code Tag</td>
+        <td class="c23">defines a peice of computer code</td>
+        <td class="c24"><p>The HTML <code>button</code> tag defines a clickable button</p></td>
+    </tr>
+    <tr>
+        <td class="c21">14</td>
+        <td class="c22">Color Tag</td>
+        <td class="c23">Specifies column properties for each column within a element. St the columns Color.</td>
+            <td class="c24">
+                <table border="1px" cellspacing="0">
+                    <colgroup>
+                      <col span="2" style="background-color: blue;">
+                      <col style="background-color: burlywood;">
+                    </colgroup>
+                    <tr>
+                      <th>Name</th>
+                      <th>Roll</th>
+                      <th>Age</th>
+                    </tr>
+                    <tr>
+                      <td>John</td>
+                      <td>1</td>
+                      <td>21</td>
+                    </tr>
+                  </table>
+            </td>
+    </tr>
+    <tr>
+        <td class="c21">15</td>
+        <td class="c22">Color Group Tag</td>
+        <td class="c23">Specifies a group of one or more columns in a table for formatting</td>
+        <td class="c24">
+            <table>
+                <colgroup>
+                  <col span="2" style="background-color: cadetblue;">
+                  <col style="background-color: crimson;">
+                </colgroup>
+                <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Address</th>
+                </tr>
+                <tr>
+                  <td>Rahman</td>
+                  <td>General Manager</td>
+                  <td>Dhaka</td>
+                </tr>
+              </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="c21">16</td>
+        <td class="c22">Data tag</td>
+        <td class="c23">Adds a machine-readable translation of a given content</td>
+        <td class="c24">
+            <ul>
+                <li><data value="2130">Tomato</data></li>
+                <li><data value="21032">Potato</data></li>
+                <li><data value="21034">Carrot</data></li>
+              </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="c21">17</td>
+        <td class="c22">Description tag</td>
+        <td class="c23">Defines a description of a term in a description list</td>
+        <td class="c24">
+            <dl>
+                <dt>Cricket</dt>
+                <dd>One kind of game</dd>
+                <dt>Ball</dt>
+                <dd>Used in the game</dd>
+              </dl>
+        </td>
+    </tr>
+    <tr>
+        <td class="c21">18</td>
+        <td class="c22">Delete Tag</td>
+        <td class="c23">Defines text that has been deleted from a document</td>
+        <td class="c24"><p>My favorite subject is <del>Social Science</del> <ins>Math</ins>!</p></td>
+    </tr>
+    <tr>
+        <td class="c21">19</td>
+        <td class="c22">Detail Tag</td>
+        <td class="c23">Defines additional details that the user can view or hide</td>
+        <td class="c24">
+            <details>
+                <summary>Codeforces</summary>
+                <p>Competitive Programming Site. Helps a coder to develop skill.</p>
+              </details>
+        </td>
+    </tr>
+    <tr>
+        <td class="c21">20</td>
+        <td class="c22">Define tag</td>
+        <td class="c23">Specifies a term that is going to be defined within the content</td>
+        <td class="c24"><p><dfn>Java</dfn>Standard Programming Language For Making Softwares</p></td>
+    </tr>
+    <tr>
+        <td class="c31">21</td>
+        <td class="c32">Dialogue Tag</td>
+        <td class="c33">Defines a dialogue box or a window</td>
+        <td class="c34">
+            <h3>Dialogue Box</h3>
+            <p>Making a dialogue box</p>
+            <dialog open>           This is an open dialog window</dialog>
+            <p>    ooooooooooooooooooooooo   </p>
+            <p>    oooooooooooooooo oooooooo   </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">22</td>
+        <td class="c32">Description List Tag</td>
+        <td class="c33">Defines a description list</td>
+        <td class="c34">
+            <dl>
+                <dt>Pen</dt>
+                <dd>Used for writing</dd>
+                <dt>Eraser</dt>
+                <dd>Used to erase a mistake</dd>
+              </dl>
+              
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">23</td>
+        <td class="c32">Description term tag</td>
+        <td class="c33">Defines a term/name in a description list</td>
+        <td class="c34">
+            <dl>
+                <dt>Term</dt>
+                <dd>Description</dd>
+              </dl>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">24</td>
+        <td class="c32">Emphasize Tag</td>
+        <td class="c33">Defins emphasized text</td>
+        <td class="c34"><p>This <em>word</em> is emphasized </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">25</td>
+        <td class="c32">Form Tag</td>
+        <td class="c33">Groups related elements in a form</td>
+        <td class="c34">
+            <form action="/action_page.php">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label>
+                  <input type="text" id="fname" name="fname"><br><br>
+                  <label for="lname">Last name:</label>
+                  <input type="text" id="lname" name="lname"><br><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email"><br><br>
+                  <label for="birthday">Birthday:</label>
+                  <input type="date" id="birthday" name="birthday"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">26</td>
+        <td class="c32">Figure Caption Tag</td>
+        <td class="c33"> Define a caption for a figure element.</td>
+        <td class="c34">
+            <figure>
+                <img src="Images/download (2).jpg" alt=DOWNLOAD style= "width:10">
+                <figcaption>FLOWERS</figcaption>
+            </figure>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">27</td>
+        <td class="c32">Footer Tag</td>
+        <td class="c33">Defines a footer for a document or section</td>
+        <td class="c34">
+            <footer>
+                <p>Hege Refsnes</p>
+                <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+            </footer>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">28</td>
+        <td class="c32">Input Form Tag</td>
+        <td class="c33">Defines a html tag for user input</td>
+        <td class="c34">
+            <h1>LOGIN</h1>
+
+             <form action="/action_page.php">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="pass">Password:</label>
+                <input type="text" id="pass" name="pass"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td class="c31">29</td>
+        <td class="c32">Heading Tag</td>
+        <td class="c33"> Defines html heading</td>
+        <td class="c34"><h1>This is a heading</h1></td>
+    </tr>
+    <tr>
+        <td class="c31">30</td>
+        <td class="c32">Head Tag</td>
+        <td class="c33">Contains metadata/information for the document</td>
+        <td class="c34">
+            <html>
+                <head>This is the head of a page</head>
+            </html>
+        </td>
+    </tr>
+    <tr>
+        <td class="c41">31</td>
+        <td class="c42">Header Tag</td>
+        <td class="c43">Defines the header for a document or setion</td>
+        <td class="c44">
+            <article>
+                <header>
+                  <h1>This is the header</h1>
+                  <p>This is the first line</p>
+                </header>
+                <p>This is the second line</p>
+              </article>
+        </td>
+    </tr>
+    <tr>
+        <td class="c41">32</td>
+        <td class="c42">HR Tag</td>
+        <td class="c43">Defines a thematic change in the content</td>
+        <td class="c44">
+            <p>This line is normal</p>
+            <hr><p>This line is written in hr tag</p></hr>
+            <p>This line is normal</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="c41">33</td>
+        <td class="c42">Italic Tag</td>
+        <td class="c43">Defines a  text in an italic mood</td>
+        <td class="c44"><i>This text is italic</i></td>
+    </tr>
+    <tr>
+        <td class="c41">34</td>
+        <td class="c42">Inline Frame Tag</td>
+        <td class="c43">Defines an inline frame</td>
+        <td class="c44"><iframe src="https://www.youtube.com/" title="Youtube">This website refuses to connenct</iframe></td>
+    </tr>
+    <tr>
+        <td class="c41">35</td>
+        <td class="c42">Image Tag</td>
+        <td class="c43">Defines an image</td>
+        <td class="c44"><img src="images/wp6244231.jpg" alt="WP6244231" width="200" height=100></td>
+
+    </tr>
+    <tr>
+        <td class="c41">36</td>
+        <td class="c42">Inserted Tag</td>
+        <td class="c43">Defines a text has been inserted to a document</td>
+        <td class="c44"> <p>This is <del>deleted</del><ins>inserted</ins></p></td>
+    </tr>
+    <tr>
+        <td class="c41">37</td>
+        <td class="c42">KBD Tag</td>
+        <td class="c43">Defines key-board inout</td>
+        <td class="c44">Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the code </td>
+    </tr>
+    <tr>
+        <td class="c41">38</td>
+        <td class="c42">Main Tag</td>
+        <td class="c43">Specifies the main content of a document</td>
+        <td class="c44"><main>this is the main element</main></td>
+    </tr>
+    <tr>
+        <td class="c41">39</td>
+        <td class="c42">Map Tag</td>
+        <td class="c43">Defines an image map</td>
+        <td class="c44">
+            <img src="Images/download.jpg" alt="Download" usemap="#downmap" width="200" height="100">
+            <map name="downmap">
+                <area shape="rect" coords="34,44,90,190" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="170,90,195,175" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="195,188,120" alt="Cup of coffee" href="coffee.htm">
+              </map>
+        </td>
+    </tr>
+    <tr>
+        <td class="c41">40</td>
+        <td class="c42">Mark Tag</td>
+        <Td class="c43">Defines marked/highlighted words</Td>
+        <td class="c44"><p>This <mark>word</mark> is highlighted.
+        </p></td>
+    </tr>
+    <tr>
+        <td class="c51">41</td>
+        <td class="c52">Meta Tag</td>
+        <td class="c53">Defines meta data about an html document</td>
+        <td class="c54">
+            <html>
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="First Calss" content="Web Development">
+                </head>
+                <body>
+                    <p>Meta data is in the head section</p>
+                </body>
+            </html>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">42</td>
+        <td class="c52">Meter Tag</td>
+        <td class="c53">Defines a scalar measurement within a known range</td>
+        <td class="c54">
+            <label for="disk_c">Disk Usage C:</label>
+             <meter id="disk_c" value="5" min="0" max="10">5 out of 10</meter><br>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">43</td>
+        <td class="c52">Navigation Tag</td>
+        <td class="c53">Defines navigation links</td>
+        <td class="c54">
+            <nav><a href="/html/">HTML</a></nav>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">44</td>
+        <td class="c52">Nonscript tag</td>
+        <td class="c53">Defines an alternate content for users that do not support client-side scripts</td>
+        <td class="c54">
+            <script>
+                document.write("Hello")
+            </script>
+            <noscript>Your browser does not support Codeblocks</noscript>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">45</td>
+        <td class="c52">Object Tag</td>
+        <td class="c53">Defines a container for an external application</td>
+        <td class="c54">
+            <object data="Images/379d2c70f67f62c4770d01c2848bc6d3.jpg" type="" weidth="200" height="100"></object>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">46</td>
+        <td class="c52">Ordered list Tag</td>
+        <td class="c53">Defines an ordered list</td>
+        <td class="c54">
+            <ol>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Sugar</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">47</td>
+        <td class="c52">Option Group Tag</td>
+        <td class="c53">defines a group of related options in a drop-down list</td>
+        <td class="c54">
+            <label for="Phones">Choose a Phone:</label>                
+            <select  name="Phones" id="Phones">
+              <optgroup label="Top-rated Phones">
+                <option value="IPhone">IPhone</option>
+                <option value="OnePlus">OnePlus</option>
+              </optgroup>
+              <optgroup label="BUdget-friendly Phones">
+                <option value="Oppo">Oppo</option>
+                <option value="Vivo">Vivo</option>
+              </optgroup>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">48</td>
+        <td class="c52">Unordered list Tag</td>
+        <td class="c53">Defines an unordered list</td>
+        <td class="c54">
+            <ul>
+                <li>Coffe</li>
+                <li>Tea</li>
+                <li>Soda</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="c51">49</td>
+        <td class="c52">Paragraph tag</td>
+        <td class="c53">Defines a paragraph</td>
+       <td class="c54"><p>It's a small paragraph</p></td>
+    </tr>
+    <tr>
+        <td class="c51">50</td>
+        <td class="c52">Output Tag</td>
+        <td class="c53">Defines the result of a calculation</td>
+        <td class="c54">
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="10">
+                +<input type="number" id="b" value="5">
+                =<output name="x" for="a b"></output>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td class="c61">51</td>
+        <td class="c62">Performed Tag</td>
+        <td class="c63">Defines performed text</td>
+        <td class="c64"><pre>This text is in pre element</pre></td>
+
+    </tr>
+    <tr>
+        <td class="c61">52</td>
+        <td class="c62">Progress tag</td>
+        <td class="c63">Defines the progress of a tag</td>
+        <td class="c64">
+            <label for="file">Downloading progress:</label>
+            <progress id="file" value="50" max="100"> 50% </progress>
+        </td>
+    </tr>
+    <tr>
+        <td class="c61">53</td>
+        <td class="c62">Quotation Tag</td>
+        <td class="c63">Defines a short quotation</td>
+        <td class="c64"><q>This sentence is quoted</q></td>
+    </tr>
+    <tr>
+        <td class="c61">53</td>
+        <td class="c62">Ruby Tag</td>
+        <td class="c63">Defines what to show in browser that do not support ruby annotation</td>
+        <td class="c64">
+            <ruby>
+             漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+            </ruby>
+        </td>
+    </tr>
+    <tr>
+        <td class="c61">54</td>
+        <td class="c62">RT Tag</td>
+        <td class="c63">Defines an explanation/pronunciation of characters</td>
+        <td class="c64">
+            <ruby>
+            漢 <rt> ㄏㄢˋ </rt>
+            </ruby>
+        </td>
+    </tr>
+    <tr>
+        <td class="c61">55</td>
+        <td class="c62">S Tag</td>
+        <td class="c63">Defines statement that is no onger correct</td>
+        <td class="c64"><p><s>This is correct</s></p>
+        <p>This is no longer correct</p></td>
+    </tr>
+    <tr>
+        <td class="c61">56</td>
+        <td class="c62">Sample Tag</td>
+        <td class="c63">Defines sample output from a computer program</td>
+        <td class="c64"><p><samp>File not found.<br> Press f1 to continue</samp> </p></td>
+    </tr>
+    <tr>
+        <td class="c61">57</td>
+        <td class="c62">Section Tag</td>
+        <td class="c63">Defines a section element in a document</td>
+        <td class="c64"><section><h3>SECTION</h3><p>This is the section</p></section></td>
+    </tr>
+    <tr>
+        <td class="c61">58</td>
+        <td class="c62">Small Tag</td>
+        <td class="c63">Defines smaller text</td>
+        <td class="c64">
+            <p>This is the nirmal text form</p>
+            <p><small>This is a smaller text.</small></p>
+        </td>
+    </tr>
+    <tr>
+        <td class="c61">59</td>
+        <td class="c62">Span Tag</td>
+        <Td class="c63">Defines a section in a document</Td>
+        <td class="c64"><p>I like <span style="color:crimson"> CRIMSON </span> color</p></td>
+    </tr>
+    <tr>
+        <td class="c61">60</td>
+        <td class="c62">Strong Tag</td>
+        <td class="c63">Defines important text</td>
+        <td class="c64"><p>This <strong>TEXT</strong> is important</p></td>
+    </tr>
+    
+    <tr>
+        <td class="c71">61</td>
+        <td class="c72">Subscripted Tag</td>
+        <td class="c73">Defines subscripted text.</td>
+        <td class="c74"><p>This <sub>TEXT</sub> is subscripted</p></td>
+    </tr>
+    <tr>
+        <td class="c71">62</td>
+        <td class="c72">Summary Tag</td>
+        <td class="c73">Defines a visible heading for the element</td>
+        <td class="c74">
+            <Details>
+                <summary>SUMMARY</summary>
+                <p>This is the element.</p>
+            </Details>
+        </td>
+    </tr>
+    <tr>
+        <td class="c71">63</td>
+        <td class="c72">Superscript Tag</td>
+        <td class="c73">Defines a superscripted text</td>
+        <td class="c74"><p>This <sup>TEXT</sup> is superscripted</p></td>
+    </tr>
+    <tr>
+        <td class="c71">64</td>
+        <td class="c72">Time Tag</td>
+        <td class="c73">Defines a specific time.</td>
+        <td class="c74"><p>Open from <time>10:00</time> to <time>17:00</time> everyday</p></td>
+    </tr>
+    <tr>
+        <td class="c71">65</td>
+        <td class="c72">Table Tag</td>
+        <td class="c73">Defines a table</td> 
+        <td class="c74"><table>
+            <tr><th>Name</th><th>Age</th></tr>
+            <tr><td>Anisa</td> <td>20</td></tr>
+        </table></td>
+    </tr>
+    <tr>
+        <td class="c71">66</td>
+        <td class="c72">Title Tag</td>
+        <td class="c73">Defines a title for a document</td>
+        <td class="c74"><p>This tag has been used to make the projects name</p></td>
+    </tr>
+    <tr>
+        <td class="c71">67</td>
+        <td class="c72">Variable Tag</td>
+        <td class="c73">Defines a variable</td>
+        <td class="c74"><p>Here variable <var>b</var> means base</p></td>
+
+    </tr>
+    <tr>
+        <td class="c71">68</td>
+        <td class="c72">Unarticulated Tag</td>
+        <td class="c73">Defines some text that is unarticulated and styled differently from normal text</td>
+        <td class="c74">This <u>speling</u> is wrong.</td>
+    </tr>
+    <tr>
+        <td class="c71">69</td>
+        <td class="c72">WBR Tag</td>
+        <td class="c73">Defines a possible line break</td>
+        <td class="c74"><p>this is a <wbr> break <wbr> in the line.</p></td>
+    </tr>
+    <tr>
+        <td class="c71">70</td>
+        <td class="c72">Style Tag</td>
+        <td class="c73">Defines style information of a text</td>
+        <td class="c74"><h1 style="color: lightgreen;">This is the style of the document.</h1>
+                    <!--We can't use style tag here. So we are using style attribute. Style tag can only be used inside the head tag-->
+        </td>
+    </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+.r1c1{
+    background-color: brown;
+    color: burlywood;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.r1c2{
+    background-color: burlywood ;
+    color: maroon;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.r1c3{
+    background-color: rgb(176, 212, 200);
+    color: mediumblue;
+    text-transform: uppercase;
+    font-size: larger;
+}
+.r1c4{
+    background-color: rgb(85, 211, 127);
+    color: midnightblue ;
+    font-size: larger;
+    text-transform:uppercase ;
+}
+.r2{
+    background-color: rgb(109, 109, 177);
+    color: midnightblue;
+    font-size: medium;
+    text-shadow: mistyrose;
+    font-size: x-large;
+}
+.c11{
+    background-color: rgb(206, 133, 125);
+    color: rgb(173, 27, 11);
+}
+.c12{
+    background-color: olive;
+    color: rgb(41, 41, 3);
+}
+.c13{
+    background-color: rgb(253, 110, 15);
+    color: rgb(255, 38, 0);
+}
+.c14{
+    background-color: orchid;
+    color: purple;
+}
+.c21{
+    background-color:rgb(102, 65, 65);
+    color: rosybrown;
+    font-size: xx-large;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+.c22{
+    background-color:rgb(165, 163, 62) ;
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgb(128, 83, 33);
+}
+.c23{
+    background-color: hotpink;
+    color: maroon;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.c24{
+    background-color: mediumaquamarine;
+    color: rgb(53, 104, 87);
+    font-size: xx-large;
+}
+.c31{
+    background-color: rgb(121, 87, 45);
+    font-size: xx-small;
+}
+.c32{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: xx-small;
+}
+.c34{
+    background-color: rgb(99, 99, 156);
+    font-size: xx-small;
+}
+.c33{
+    background-color: rgb(238, 210, 50);
+    font-size: xx-small;
+}
+.c41{
+    background-color: blueviolet;
+}
+.c42{
+    background-color: rgb(184, 129, 129);
+}
+.c43{
+    background-color: cadetblue;
+}
+.c44{
+    background-color: crimson;
+}
+.c51{
+    background-color: rgb(148, 104, 113);
+    font-style: unset;
+}
+.c52{
+    background-color: thistle;
+    font-style: unset;
+}
+.c53{
+    background-color: tomato;
+    font-style: unset;
+}
+.c54{
+    background-color: teal;
+    font-style: unset;
+
+}
+.c61{
+    background-color: rgb(157, 219, 219);
+    font-size: large;
+    background-size: cover;
+}
+.c62{
+    background-color: yellowgreen;
+    font-size: large;
+}
+.c63{
+    background-color: rgb(233, 177, 177);
+    font-size: larger;
+}
+.c64{
+    background-color: rgb(85, 211, 127);
+    font-size: larger;
+}
+.c71{
+    background-color: royalblue;
+    font-size: x-large;
+    font-style: italic;
+}
+.c72{
+    background-color: saddlebrown;
+    font-size: x-large;
+    font-style: italic;
+}
+.c73{
+    background-color: salmon;
+    font-size: x-large;
+    font-style: italic;
+}
+.c74{
+    background-color: yellow;
+    font-size: x-large;
+    font-style: italic;
+}
